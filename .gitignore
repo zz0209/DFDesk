@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.env*
+!.env.example
+.data-cache/
+.DS_Store
+
+# Local agent and design-tool state
+AGENTS.md
+.agents/
+.codex/
+.impeccable/
+*.webp.json
+
+# Internal product, commercial, and research documents
+DESIGN.md
+PRODUCT.md
+DELTA_FORCE_OPERATIONS_PLATFORM_PRD.md
+DELTA_FORCE_DOMAIN_KNOWLEDGE.md
+DATA_SOURCES.md
+
+# Local diagnostics
+*.log
+npm-debug.log*
